@@ -20,6 +20,7 @@ class WeatherList extends Component {
 		return (
 			<tr key={name}>
 				<td>
+					<h5>{name}</h5>
 					<GoogleMap lon={lon} lat={lat} />
 				</td>
 				<td>
